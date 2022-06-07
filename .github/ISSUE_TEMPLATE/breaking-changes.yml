@@ -2,10 +2,9 @@
 #
 # Bracketed text is a placeholder; replace the text with the requested information and remove the brackets before submitting the issue. Also, remove this comment before submitting the issue.
 
-name: "Umbraco HQ team members only: report a breaking change"
+name: "📖 Umbraco HQ team members only: report a breaking change"
 description: Report a change in Umbraco that breaks something that worked in a previous version. This form is intended to be used by the product team.
 title: "[Breaking change]: "
-labels: "category/breaking"
 body:
   - type: textarea
     id: description
@@ -48,8 +47,6 @@ body:
       options:
         - label: "**Binary incompatible**: Existing binaries may encounter a breaking change in behavior, such as failure to load/execute or different run-time behavior."
         - label: "**Source incompatible**: Source code may encounter a breaking change in behavior when targeting the new runtime/component/SDK, such as compile errors or different run-time behavior."
-    validations:
-      required: true
   - type: textarea
     id: reason
     attributes:
