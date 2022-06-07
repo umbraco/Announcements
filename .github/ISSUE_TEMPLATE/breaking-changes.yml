@@ -2,10 +2,10 @@
 #
 # Bracketed text is a placeholder; replace the text with the requested information and remove the brackets before submitting the issue. Also, remove this comment before submitting the issue.
 
-name: "Umbraco CMS breaking change"
-description: Report a change in Umbraco CMS that breaks something that worked in a previous version. This form is intended to be used by the product team.
+name: "Umbraco HQ team members only: report a breaking change"
+description: Report a change in Umbraco that breaks something that worked in a previous version. This form is intended to be used by the product team.
 title: "[Breaking change]: "
-labels: "Breaking change"
+labels: "category/breaking"
 body:
   - type: textarea
     id: description

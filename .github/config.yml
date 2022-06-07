@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ❗Only for Umbraco HQ team members
+    url: https://github.com/umbraco/Umbraco-CMS/
+    about: Do not post issues in this repo. Use umbraco/Umbraco-CMS instead.
