@@ -23,6 +23,7 @@ body:
         - Umbraco 10
         - Umbraco 11
         - Umbraco 12
+        - Umbraco 13
         - Other (please put exact version in description textbox)
     validations:
       required: true
